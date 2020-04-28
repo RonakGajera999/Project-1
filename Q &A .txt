@@ -1,0 +1,17 @@
+1).  Can we get from logistic regression results some indication about which features were the most important?
+Ans: I) Confusion Matrix: In the confusion matrix you can show the array object. 2*2 dimention matrix which shows you to o= No and 1= yes
+                          so there is 125,62 is your actual prediction and 1 and 1 are incorrect prediction shown.
+     II)  precision: How accurate this model, here it shows customer 66% to 70% of the time buy a product.
+     III) Recall or Sensivity: IF there are customer that bought the product in according to using any ways . 
+          if they are in test data then model identify it 94% of the time.
+     IV) Auc Curve: When It shows more then 50% it be good to use classifier.
+     
+        :: Important fact while using this is you can remove attributes that are unrealistic with your outputs 
+            its work better.and its not working when you add other attributes which can not co-related with 
+            your target variable.
+
+
+2). What is the interpretion of graphs made using this code: df1.plot(x='NumCalls', y= 'MadeAPurchase',color='Red') ?
+Ans:  The interpretion of this graph show direct affection with MadeAPurchage but its pretty ugly to predict that's
+      why on downside i make box plot which shows to that yes and no on dependency of how many times do Numcalls by 
+      customers and provide that its preasible to use this variable for company.
